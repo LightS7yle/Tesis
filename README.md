@@ -17,7 +17,7 @@ Consta de 6 secciones:
 
 1. Instalación y configuración de paquetes (requirements.txt)
 
-2. Bloque de código extracción de data de manuales (crear en directorio de trabajo carpeta Manuales)
+2. Bloque de código extracción de data de manuales (crear en el directorio de trabajo la carpeta Manuales y agregar los limites de inicio y fin por Manual agregado)
 
 3. Bloque de código de limpieza y preprocesamiento de datos / Generación de embeddings
 
@@ -32,6 +32,8 @@ Nota-1 : Por temas de privacidad y confidencialidad de la información de la emp
 Nota-2 : En caso querer probar el código del notebook "analisis.ipynb" solicitar por interno los manuales
 
 Nota-3 : No habrá problema en probar el código descrito en el punto 4 ("LLM.ipynb") ya que los embeddings y metadatos de los manuales ya fueron extraidos
+
+Nota-4 : La data QA se obtuvo a partir de los chunks generados en "chunks_para_qa.csv" usando un LLM como GPT-4
 
 # Correr Notebooks
 
