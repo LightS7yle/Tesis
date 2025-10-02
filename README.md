@@ -9,6 +9,14 @@ Se ha implementado tres diferentes maneras de utilizar la implementación Phi-4 
 
 ---
 
+## 📊 Dataset
+- **Fuente**: Empresa Privada de Generación de Energía Eléctrica 
+- **Registros**: 5 manuales  
+- **Variables**: páginas, idioma, formato  
+- **Versión usada**: descargada el 20/09/2025  
+
+---
+
 ## 🗂️ Estructura del repositorio
 ```
 Tesis/
@@ -17,8 +25,8 @@ Tesis/
   ├──  requirements.txt
   ├──  temp.txt    
 dataQA/
-  ├──  qa.csv
-  ├──  qa.txt
+  ├──  qa.csv                                               # Archivo preguntas/respuestas SH / respuestas modelos
+  ├──  qa.txt                                               # Archivo preguntas/respuestas obtenido con el apoyo de los stakeholders (SH)
 ManualesDummy/
   ├──  7.5 RO FOULING substance (anaysis solution).pdf
   ├──  Manual de Turbina TG-1 Kallpa.pdf
@@ -26,15 +34,15 @@ ManualesDummy/
   ├──  PD-0100-0001_Rev_m.pdf
   ├──  sd31_manual.pdf
 notebooks/
-  ├──  analisis.ipynb
-  ├──  evaluacion.ipynb
-  ├──  LLM.ipynb
+  ├──  analisis.ipynb                                        # Análisis exploratorio inicial
+  ├──  evaluacion.ipynb                                      # Evaluación de resultados
+  ├──  LLM.ipynb                                             # Libro principal LLM / LLM + RAG / LLM + RAG + DSLR
 outputs/
-  ├──  chunks_para_qa.csv
+  ├──  chunks_para_qa.csv                                    # Chunks de todos los manuales
   ├──  embeddings_y_metadatos.pkl
   ├──  faiss_index.index 
-resultados/
-  ├──  evaluacion_con_bert.csv
+resultados/                                                  # Resultados comparando mis 3 alternativas: LLM / LLM + RAG / LLM + RAG + DSLR
+  ├──  evaluacion_con_bert.csv                           
   ├──  evaluacion_con_rouge.csv
   ├──  evaluacion_rag_con_bert.csv
   ├──  evaluacion_rag_con_franq.csv
@@ -122,5 +130,5 @@ Concatenación embeddings (texto + grafo)
 
 Es decir, el LLM ya no responde solo lo más cercano a la consulta vectorialmente, sino con “lo más parecido en palabras y en relaciones técnicas”.
 
-# Autor
+# 👥 Autor
 Diego Fernando López Lozano
