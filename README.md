@@ -16,6 +16,9 @@ Todas las implementaciones en notebooks son en su mayoría autoexplicativas y se
 Consta de 6 secciones:
 
 1. Instalación y configuración de paquetes (requirements.txt)
+```bash
+pip install -r requirements.txt
+```
 
 2. Bloque de código extracción de data de manuales (crear en el directorio de trabajo la carpeta Manuales y agregar los limites de inicio y fin por Manual agregado)
 
@@ -68,3 +71,16 @@ Posibilidad de combinación de resultados texto + grafos:
 Concatenación embeddings (texto + grafo)
 
 Es decir, el LLM ya no responde solo lo más cercano a la consulta vectorialmente, sino con “lo más parecido en palabras y en relaciones técnicas”.
+
+---
+
+## 📈 Resultados esperados (Semana 3)
+- **EDA inicial** en `notebooks/analisis.ipynb`.  
+- **Baseline Dummy** (LLM Phi-4 mini) → Bertscore F1 ≈ 0.834 pero sin RAG.  
+- **Métrica central**: Bertscore ≈ 0.852 utilizando Phi-4 mini + RAG + DSLR
+- **Logs de resultados** → `/resultados`.  
+- **Slides de resultados** → generados con `evaluacion.ipynb`  
+---
+
+# Autor
+Diego Fernando López Lozano
