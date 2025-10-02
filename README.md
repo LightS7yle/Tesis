@@ -102,7 +102,7 @@ Cuarto ejecutar evaluacion.ipynb para generar los cuadros comparativos entre los
 - **EDA inicial** en `notebooks/analisis.ipynb`.  
 - **Baseline Dummy** (LLM Phi-4 mini) → Bertscore F1 ≈ 0.834 pero sin RAG.  
 - **Métrica central**: Bertscore ≈ 0.852 utilizando Phi-4 mini + RAG + DSLR
-- **Logs de resultados** → `/resultados`.  
+- **Logs de resultados** → `/resultados/Comparativa_resultados.xlsx`.  
 - **Slides de resultados** → generados con `evaluacion.ipynb`  
 ---
 
