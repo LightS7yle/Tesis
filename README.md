@@ -48,7 +48,8 @@ resultados/                                                  # Resultados compar
   ├──  evaluacion_rag_con_franq.csv
   ├──  evaluacion_rag_con_rouge.csv
   ├──  evaluacion_rag_dslr_con_bert.csv
-  ├──  evaluacion_rag_dslr_con_rouge.csv     
+  ├──  evaluacion_rag_dslr_con_rouge.csv
+  ├──  Comparativa_resultados.xlsx     
 \
 ```
 
