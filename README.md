@@ -7,6 +7,45 @@ Se ha implementado tres diferentes maneras de utilizar la implementación Phi-4 
 
 3.- Implementación de LLM ( Phi-4 mini ) con RAG utilizando Document Refinement with Sentence-Level Re-ranking and Reconstruction to Enhance Retrieval-Augmented Generation (DSLR)
 
+---
+
+## 🗂️ Estructura del repositorio
+```
+Tesis/
+  ├── .gitignore
+  ├── README.md
+  ├── requirements.txt
+  ├── temp.txt    
+dataQA/
+  ├── qa.csv
+  ├── qa.txt
+ManualesDummy/
+  ├──  7.5 RO FOULING substance (anaysis solution).pdf
+  ├──  Manual de Turbina TG-1 Kallpa.pdf
+  ├──  MANUAL Y USO DE BOMBAS OBL SERIE R.pdf
+  ├──  PD-0100-0001_Rev_m.pdf
+  ├──  sd31_manual.pdf
+notebooks/
+  ├──  analisis.ipynb
+  ├──  evaluacion.ipynb
+  ├──  LLM.ipynb
+outputs/
+  ├──  chunks_para_qa.csv
+  ├──  embeddings_y_metadatos.pkl
+  ├──  faiss_index.index 
+resultados/
+  ├──  evaluacion_con_bert.csv
+  ├──  evaluacion_con_rouge.csv
+  ├──  evaluacion_rag_con_bert.csv
+  ├──  evaluacion_rag_con_franq.csv
+  ├──  evaluacion_rag_con_rouge.csv
+  ├──  evaluacion_rag_dslr_con_bert.csv
+  ├──  evaluacion_rag_dslr_con_rouge.csv     
+\
+```
+
+---
+
 # Configuración
 
 ### Notebooks
@@ -48,6 +87,17 @@ Tercero ejecutar LLM.ipynb para guardar las inferencias generadas por los difere
 
 Cuarto ejecutar evaluacion.ipynb para generar los cuadros comparativos entre los diferentes modelos.
 
+---
+
+## 📈 Resultados esperados (Semana 3)
+- **EDA inicial** en `notebooks/analisis.ipynb`.  
+- **Baseline Dummy** (LLM Phi-4 mini) → Bertscore F1 ≈ 0.834 pero sin RAG.  
+- **Métrica central**: Bertscore ≈ 0.852 utilizando Phi-4 mini + RAG + DSLR
+- **Logs de resultados** → `/resultados`.  
+- **Slides de resultados** → generados con `evaluacion.ipynb`  
+---
+
+
 # Trabajo futuro
 
 Se buscará aplicar otros métodos para generación de embeddings diferente al usado ("distiluse-base-multilingual-cased-v1") como lo es el Node2Vec, ganando conectar 
@@ -71,16 +121,6 @@ Posibilidad de combinación de resultados texto + grafos:
 Concatenación embeddings (texto + grafo)
 
 Es decir, el LLM ya no responde solo lo más cercano a la consulta vectorialmente, sino con “lo más parecido en palabras y en relaciones técnicas”.
-
----
-
-## 📈 Resultados esperados (Semana 3)
-- **EDA inicial** en `notebooks/analisis.ipynb`.  
-- **Baseline Dummy** (LLM Phi-4 mini) → Bertscore F1 ≈ 0.834 pero sin RAG.  
-- **Métrica central**: Bertscore ≈ 0.852 utilizando Phi-4 mini + RAG + DSLR
-- **Logs de resultados** → `/resultados`.  
-- **Slides de resultados** → generados con `evaluacion.ipynb`  
----
 
 # Autor
 Diego Fernando López Lozano
