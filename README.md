@@ -16,6 +16,9 @@ Todas las implementaciones en notebooks son en su mayoría autoexplicativas y se
 Consta de 6 secciones:
 
 1. Instalación y configuración de paquetes (requirements.txt)
+```bash
+pip install -r requirements.txt
+```
 
 2. Bloque de código extracción de data de manuales (crear en el directorio de trabajo la carpeta Manuales y agregar los limites de inicio y fin por Manual agregado)
 
