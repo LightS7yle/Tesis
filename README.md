@@ -68,3 +68,6 @@ Posibilidad de combinación de resultados texto + grafos:
 Concatenación embeddings (texto + grafo)
 
 Es decir, el LLM ya no responde solo lo más cercano a la consulta vectorialmente, sino con “lo más parecido en palabras y en relaciones técnicas”.
+
+# Autor
+Diego Fernando López Lozano
