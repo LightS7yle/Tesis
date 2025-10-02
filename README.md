@@ -78,7 +78,7 @@ Es decir, el LLM ya no responde solo lo más cercano a la consulta vectorialment
 - **EDA inicial** en `notebooks/analisis.ipynb`.  
 - **Baseline Dummy** (LLM Phi-4 mini) → Bertscore F1 ≈ 0.834 pero sin RAG.  
 - **Métrica central**: Bertscore ≈ 0.852 utilizando Phi-4 mini + RAG + DSLR
-- **Logs de resultados** → `logs/metrics_baseline.txt`.  
+- **Logs de resultados** → `/resultados`.  
 - **Slides de resultados** → generados con `evaluacion.ipynb`  
 ---
 
