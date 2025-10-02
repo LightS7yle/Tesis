@@ -109,9 +109,7 @@ Cuarto ejecutar evaluacion.ipynb para generar los cuadros comparativos entre los
 
 # Trabajo futuro
 
-Se buscará aplicar otros métodos para generación de embeddings diferente al usado ("distiluse-base-multilingual-cased-v1") como lo es el Node2Vec, ganando conectar 
-
-información entre manuales por su estructura técnica y relacional generando un grafo de conocimiento
+Se buscará aplicar otros métodos para generación de embeddings diferente al usado ("distiluse-base-multilingual-cased-v1") como lo es el Node2Vec, ganando conectar información entre manuales por su estructura técnica y relacional generando un grafo de conocimiento
 
 Es decir, cuando un operario realiza una consulta:
 
