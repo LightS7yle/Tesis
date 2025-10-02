@@ -12,13 +12,13 @@ Se ha implementado tres diferentes maneras de utilizar la implementación Phi-4 
 ## 🗂️ Estructura del repositorio
 ```
 Tesis/
-  ├── .gitignore
-  ├── README.md
-  ├── requirements.txt
-  ├── temp.txt    
+  ├──  .gitignore
+  ├──  README.md
+  ├──  requirements.txt
+  ├──  temp.txt    
 dataQA/
-  ├── qa.csv
-  ├── qa.txt
+  ├──  qa.csv
+  ├──  qa.txt
 ManualesDummy/
   ├──  7.5 RO FOULING substance (anaysis solution).pdf
   ├──  Manual de Turbina TG-1 Kallpa.pdf
