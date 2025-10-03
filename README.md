@@ -48,7 +48,8 @@ resultados/                                                  # Resultados compar
   ├──  evaluacion_rag_con_franq.csv
   ├──  evaluacion_rag_con_rouge.csv
   ├──  evaluacion_rag_dslr_con_bert.csv
-  ├──  evaluacion_rag_dslr_con_rouge.csv     
+  ├──  evaluacion_rag_dslr_con_rouge.csv
+  ├──  Comparativa_resultados.xlsx     
 \
 ```
 
@@ -101,16 +102,14 @@ Cuarto ejecutar evaluacion.ipynb para generar los cuadros comparativos entre los
 - **EDA inicial** en `notebooks/analisis.ipynb`.  
 - **Baseline Dummy** (LLM Phi-4 mini) → Bertscore F1 ≈ 0.834 pero sin RAG.  
 - **Métrica central**: Bertscore ≈ 0.852 utilizando Phi-4 mini + RAG + DSLR
-- **Logs de resultados** → `/resultados`.  
+- **Logs de resultados** → `/resultados/Comparativa_resultados.xlsx`.  
 - **Slides de resultados** → generados con `evaluacion.ipynb`  
 ---
 
 
 # Trabajo futuro
 
-Se buscará aplicar otros métodos para generación de embeddings diferente al usado ("distiluse-base-multilingual-cased-v1") como lo es el Node2Vec, ganando conectar 
-
-información entre manuales por su estructura técnica y relacional generando un grafo de conocimiento
+Se buscará aplicar otros métodos para generación de embeddings diferente al usado ("distiluse-base-multilingual-cased-v1") como lo es el Node2Vec, ganando conectar información entre manuales por su estructura técnica y relacional generando un grafo de conocimiento
 
 Es decir, cuando un operario realiza una consulta:
 
