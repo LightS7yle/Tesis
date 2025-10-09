@@ -11,7 +11,7 @@ Se ha implementado tres diferentes maneras de utilizar la implementación Phi-4 
 
 ## 📊 Dataset
 - **Fuente**: Empresa Privada de Generación de Energía Eléctrica 
-- **Registros**: 5 manuales  
+- **Registros**: 10 manuales  
 - **Variables**: páginas, idioma, formato  
 - **Versión usada**: descargada el 20/09/2025  
 
