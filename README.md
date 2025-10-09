@@ -20,6 +20,7 @@ Se ha implementado tres diferentes maneras de utilizar la implementación Phi-4 
 ## 🗂️ Estructura del repositorio
 ```
 Tesis/
+  ├──  .env
   ├──  .gitignore
   ├──  README.md
   ├──  requirements.txt
@@ -32,15 +33,23 @@ ManualesDummy/
   ├──  Manual de Turbina TG-1 Kallpa.pdf
   ├──  MANUAL Y USO DE BOMBAS OBL SERIE R.pdf
   ├──  PD-0100-0001_Rev_m.pdf
+  ├──  SB4-14-0055-GT-EN-01.pdf
+  ├──  SB4-17-0022-GT-EN-01.pdf
+  ├──  SB4-18-0104-GT-EN-01.pdf
+  ├──  SB4-19-0009-GT-EN-01.pdf
+  ├──  SB5-08-0021-GT-EN-01.pdf
   ├──  sd31_manual.pdf
 notebooks/
   ├──  analisis.ipynb                                        # Análisis exploratorio inicial
   ├──  evaluacion.ipynb                                      # Evaluación de resultados
-  ├──  LLM.ipynb                                             # Libro principal LLM / LLM + RAG / LLM + RAG + DSLR
+  ├──  LLM.ipynb
+  ├──  LLM_gemma.ipynb                                          # Libro principal LLM / LLM + RAG / LLM + RAG + DSLR
 outputs/
   ├──  chunks_para_qa.csv                                    # Chunks de todos los manuales
   ├──  embeddings_y_metadatos.pkl
-  ├──  faiss_index.index 
+  ├──  faiss_index.index
+  ├──  embeddings_gemma_y_metadatos.pkl                      # Sentence embedding generado por Gemma     
+  ├──  df_qa.csv                                             # En este .csv se guardan las respuestas generadas por mi modelo para métricas 
 resultados/                                                  # Resultados comparando mis 3 alternativas: LLM / LLM + RAG / LLM + RAG + DSLR
   ├──  evaluacion_con_bert.csv                           
   ├──  evaluacion_con_rouge.csv
