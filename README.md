@@ -42,9 +42,9 @@ ManualesDummy/
 notebooks/
   ├──  analisis.ipynb                                        # Análisis exploratorio inicial
   ├──  evaluacion.ipynb                                      # Evaluación de resultados
-  ├──  LLM.ipynb
-  ├──  LLM_gemma.ipynb                                          # Libro principal LLM / LLM + RAG / LLM + RAG + DSLR
-outputs/
+  ├──  LLM.ipynb                                             # Libro principal LLM / LLM + RAG / LLM + RAG + DSLR   
+  ├──  LLM_gemma.ipynb                                       # Libro principal LLM / LLM + RAG / LLM + RAG + DSLR usando modelo Embedding Gemma                      
+outputs/                                                     
   ├──  chunks_para_qa.csv                                    # Chunks de todos los manuales
   ├──  embeddings_y_metadatos.pkl
   ├──  faiss_index.index
