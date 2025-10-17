@@ -58,7 +58,7 @@ resultados/                                                  # Resultados compar
   ├──  evaluacion_rag_con_rouge.csv
   ├──  evaluacion_rag_dslr_con_bert.csv
   ├──  evaluacion_rag_dslr_con_rouge.csv
-  ├──  Comparativa_resultados.xlsx     
+  ├──  Comparativa_resultados_v2.xlsx     
 \
 ```
 
@@ -109,7 +109,7 @@ Cuarto ejecutar evaluacion.ipynb para generar los cuadros comparativos entre los
 
 ## 📈 Resultados esperados (Semana 3)
 - **EDA inicial** en `notebooks/analisis.ipynb`.  
-- **Baseline Dummy** (LLM Phi-4 mini) → Bertscore F1 ≈ 0.834 pero sin RAG.  
+- **Baseline Dummy** (LLM Phi-4 mini) → Bertscore F1 ≈ 0.828 pero sin RAG.  
 - **Métrica central**: Bertscore ≈ 0.852 utilizando Phi-4 mini + RAG + DSLR
 - **Logs de resultados** → `/resultados/Comparativa_resultados.xlsx`.  
 - **Slides de resultados** → generados con `evaluacion.ipynb`  
