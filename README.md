@@ -8,6 +8,7 @@ Se ha implementado cuatro diferentes maneras de utilizar la implementación Phi-
 3.- Implementación de LLM ( Phi-4 mini ) con RAG utilizando Document Refinement with Sentence-Level Re-ranking and Reconstruction to Enhance Retrieval-Augmented Generation (DSLR)
 
 4.- Implementación de LLM ( Phi-4 mini ) con RAG utilizando Document Refinement with Sentence-Level Re-ranking and Reconstruction to Enhance Retrieval-Augmented Generation (DSLR) utilizando Ropmura
+
 ---
 
 ## 📊 Dataset
