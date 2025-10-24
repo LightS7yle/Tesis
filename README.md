@@ -43,7 +43,9 @@ notebooks/
   ├──  analisis.ipynb                                        # Análisis exploratorio inicial
   ├──  evaluacion.ipynb                                      # Evaluación de resultados
   ├──  LLM.ipynb                                             # Libro principal LLM / LLM + RAG / LLM + RAG + DSLR   
-  ├──  LLM_gemma.ipynb                                       # Libro principal LLM / LLM + RAG / LLM + RAG + DSLR usando modelo Embedding Gemma                      
+  ├──  LLM_gemma.ipynb                                       # Libro principal LLM / LLM + RAG / LLM + RAG + DSLR usando modelo Embedding Gemma     
+  ├──  LLM_gemma_ropmura.ipynb                               # Libro principal LLM / LLM + RAG / LLM + RAG + DSLR usando modelo Embedding Gemma con el método ropmura
+  ├──  ropmura.ipynb                                         # Cración de los agentos ropmura
 outputs/                                                     
   ├──  chunks_para_qa.csv                                    # Chunks de todos los manuales
   ├──  embeddings_y_metadatos.pkl
