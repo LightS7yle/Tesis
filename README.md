@@ -1,5 +1,5 @@
 # Información
-Se ha implementado tres diferentes maneras de utilizar la implementación Phi-4 mini + RAG en esta tesis, con el objetivo de comparar estas tres propuestas y elegir la mejor
+Se ha implementado cuatro diferentes maneras de utilizar la implementación Phi-4 mini + RAG en esta tesis, con el objetivo de comparar estas cuatro propuestas y elegir la mejor
 
 1.- Implementación original LLM ( Phi-4 mini ) sin RAG
 
@@ -7,6 +7,7 @@ Se ha implementado tres diferentes maneras de utilizar la implementación Phi-4 
 
 3.- Implementación de LLM ( Phi-4 mini ) con RAG utilizando Document Refinement with Sentence-Level Re-ranking and Reconstruction to Enhance Retrieval-Augmented Generation (DSLR)
 
+4.- Implementación de LLM ( Phi-4 mini ) con RAG utilizando Document Refinement with Sentence-Level Re-ranking and Reconstruction to Enhance Retrieval-Augmented Generation (DSLR) utilizando Ropmura
 ---
 
 ## 📊 Dataset
