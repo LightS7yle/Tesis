@@ -1,11 +1,13 @@
 # Información
-Se ha implementado tres diferentes maneras de utilizar la implementación Phi-4 mini + RAG en esta tesis, con el objetivo de comparar estas tres propuestas y elegir la mejor
+Se ha implementado cuatro diferentes maneras de utilizar la implementación Phi-4 mini + RAG en esta tesis, con el objetivo de comparar estas cuatro propuestas y elegir la mejor
 
 1.- Implementación original LLM ( Phi-4 mini ) sin RAG
 
 2.- Implementación de LLM ( Phi-4 mini ) con RAG
 
 3.- Implementación de LLM ( Phi-4 mini ) con RAG utilizando Document Refinement with Sentence-Level Re-ranking and Reconstruction to Enhance Retrieval-Augmented Generation (DSLR)
+
+4.- Implementación de LLM ( Phi-4 mini ) con RAG utilizando Document Refinement with Sentence-Level Re-ranking and Reconstruction to Enhance Retrieval-Augmented Generation (DSLR) utilizando Ropmura
 
 ---
 
@@ -43,7 +45,9 @@ notebooks/
   ├──  analisis.ipynb                                        # Análisis exploratorio inicial
   ├──  evaluacion.ipynb                                      # Evaluación de resultados
   ├──  LLM.ipynb                                             # Libro principal LLM / LLM + RAG / LLM + RAG + DSLR   
-  ├──  LLM_gemma.ipynb                                       # Libro principal LLM / LLM + RAG / LLM + RAG + DSLR usando modelo Embedding Gemma                      
+  ├──  LLM_gemma.ipynb                                       # Libro principal LLM / LLM + RAG / LLM + RAG + DSLR usando modelo Embedding Gemma     
+  ├──  LLM_gemma_ropmura.ipynb                               # Libro principal LLM / LLM + RAG / LLM + RAG + DSLR usando modelo Embedding Gemma con el método ropmura
+  ├──  ropmura.ipynb                                         # Cración de los agentos ropmura
 outputs/                                                     
   ├──  chunks_para_qa.csv                                    # Chunks de todos los manuales
   ├──  embeddings_y_metadatos.pkl
@@ -81,9 +85,9 @@ pip install -r requirements.txt
 
 3. Bloque de código de limpieza y preprocesamiento de datos / Generación de embeddings
 
-4. Bloque principal de código con documentación Phi-4 mini / Phi-4 mini + RAG / Phi-4 mini + RAG + DSLR
+4. Bloque principal de código con documentación Phi-4 mini / Phi-4 mini + RAG / Phi-4 mini + RAG + DSLR / Phi-4 mini + RAG + DSLR + Ropmura
 
-5. Ejemplo de inferencia con 4 manuales operativos
+5. Inferencia con 10 manuales operativos
 
 6. Métricas de evaluación ROUGE / BERTSCORE / FRANQ
 
@@ -101,9 +105,11 @@ Primero hacer las configuraciones descritas anteriormente
 
 Segundo ejecutar analisis.ipynb para obtener los embedding de tus manuales
 
-Tercero ejecutar LLM.ipynb para guardar las inferencias generadas por los diferentes modelos descritos anteriormente.
+Tercero generar los agentes utilizando el notebook ropmura.ipynb
 
-Cuarto ejecutar evaluacion.ipynb para generar los cuadros comparativos entre los diferentes modelos.
+Cuarto ejecutar LLM_gemma_ropmura.ipynb para guardar las inferencias generadas por los diferentes modelos descritos anteriormente.
+
+Quinto ejecutar evaluacion.ipynb para generar los cuadros comparativos entre los diferentes modelos.
 
 ---
 
