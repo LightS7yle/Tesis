@@ -27,7 +27,7 @@ Tesis/
   ├──  temp.txt    
 dataQA/
   ├──  qa.csv                                               # Archivo preguntas/respuestas SH / respuestas modelos
-  ├──  qa.txt                                               # Archivo preguntas/respuestas obtenido con el apoyo de los stakeholders (SH)
+  ├──  qa.txt                                               # Archivo preguntas/respuestas obtenido con el apoyo de los stakeholders
 ManualesDummy/
   ├──  7.5 RO FOULING substance (anaysis solution).pdf
   ├──  Manual de Turbina TG-1 Kallpa.pdf
