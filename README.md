@@ -13,7 +13,7 @@ Se ha implementado cuatro diferentes maneras de utilizar la implementación Phi-
 
 ## 📊 Dataset
 - **Fuente**: Empresa Privada de Generación de Energía Eléctrica 
-- **Registros**: 10 manuales  
+- **Registros**: 12 manuales  
 - **Variables**: páginas, idioma, formato  
 - **Versión usada**: descargada el 20/09/2025  
 
@@ -41,6 +41,8 @@ ManualesDummy/
   ├──  SB4-19-0009-GT-EN-01.pdf
   ├──  SB5-08-0021-GT-EN-01.pdf
   ├──  sd31_manual.pdf
+  ├──  Kallpa Peru ST OP CD.pdf
+  ├──  Manual Turbina TG-2 Kallpa.pdf
 notebooks/
   ├──  analisis.ipynb                                        # Análisis exploratorio inicial
   ├──  evaluacion.ipynb                                      # Evaluación de resultados
@@ -63,7 +65,10 @@ resultados/                                                  # Resultados compar
   ├──  evaluacion_rag_con_rouge.csv
   ├──  evaluacion_rag_dslr_con_bert.csv
   ├──  evaluacion_rag_dslr_con_rouge.csv
-  ├──  Comparativa_resultados_v2.xlsx     
+  ├──  Comparativa_resultados_v2.xlsx
+  ├──  busqueda_hiperparametros/
+      ├──  evaluacion_dslr_con_bert_h_X_k_Y_tresh_Z.csv   # Resultados de mi grid search utilizando mi modelo con los siguientes hiperparámetros: X=[0.1,0.3] ; Y=[3,5,8] ; Z=[90,95] 
+\
 \
 ```
 
